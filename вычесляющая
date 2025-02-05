@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+
+int main() {
+    double a, b, c;
+
+    cout << "Введите значение a: ";
+    cin >> a;
+
+    cout << "Введите значение b: "<< endl;
+    cin >> b;
+
+    c = a + b + sqrt(a*a + b*b);
+
+    cout << fixed << setprecision(2);
+    cout << "периметр равен: " << c << " единиц периметра" << endl;
+
+    return 0;
+}
