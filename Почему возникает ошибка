@@ -10,3 +10,4 @@ int y = 20, z = 30;
 f(&y, 2);  // 2
 cout << "main:\t" << y << "\t" << z << endl;
 return 0;
+}
