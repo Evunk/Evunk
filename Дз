@@ -1,0 +1,19 @@
+#include <iostream>
+#include<cmath>
+#include<iomanip>
+using namespace std;
+
+float f(float &x)
+{
+    return x = (x>=0)? x*2 : -x;
+}
+
+int main()
+{
+    float x;
+    cout << "put your number" << endl;
+    cin >> x;
+    x = f(x);
+    cout << "x = " << x << endl;
+    return 0;
+}
